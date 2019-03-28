@@ -25,7 +25,7 @@ def get_active_hosts():
 
 @app.route('/timeline', methods=['GET'])
 def get_timeline_hosts():
-  cur = mongo.db.posts.find().limit(100)
+  cur = mongo.db.posts.find()
   hosts = []
   output = []
   for s in cur:

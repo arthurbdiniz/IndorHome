@@ -1,15 +1,5 @@
-version: '3.4'
+version: '3'
 services:
-  # collector:
-  #   build:
-  #     network: host
-  #     context: .
-  #     dockerfile: docker/Dockerfile-collector
-  #   container_name: "collector"
-  #   links:
-  #       - mongodb
-  #   depends_on:
-  #       - mongodb
   # api:
   #   build:
   #     context: .
